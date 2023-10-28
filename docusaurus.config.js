@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "WELCOME TO MILLIWONKIM POSTS",
-  favicon: "img/logo.png",
+  favicon: "static/img/logo.png",
 
   // Set the production url of your site here
   url: "https://milliwonkim.github.io",
