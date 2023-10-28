@@ -52,15 +52,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      headTags: [
-        {
-          tagName: "meta",
-          attributes: {
-            content: "zcnlRDhc81xmT4ImRsEKsS7el3lp9F_yrNoTlipMPaI",
-            name: "google-site-verification",
-          },
-        },
-      ],
       colorMode: {
         defaultMode: "dark",
         respectPrefersColorScheme: true,
@@ -73,7 +64,12 @@ const config = {
           content:
             "frontend, development, programming, stock, economy, apple, google, meta, facebook, instagram, tiktok, amazon, aws, microsoft, react, nextjs, vercel, javascript, typescript, jsx",
         },
+        {
+          content: "zcnlRDhc81xmT4ImRsEKsS7el3lp9F_yrNoTlipMPaI",
+          name: "google-site-verification",
+        },
       ],
+
       navbar: {
         title: "MILLIWONKIM POSTS",
         logo: {
