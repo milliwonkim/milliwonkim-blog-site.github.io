@@ -49,10 +49,22 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      headTags: [
+        {
+          tagName: "meta",
+          attributes: {
+            content: "zcnlRDhc81xmT4ImRsEKsS7el3lp9F_yrNoTlipMPaI",
+            name: "google-site-verification",
+          },
+        },
+      ],
+      colorMode: {
+        defaultMode: "dark",
+        respectPrefersColorScheme: true,
+      },
       // Replace with your project's social card
       image: "img/logo.png",
       metadata: [
