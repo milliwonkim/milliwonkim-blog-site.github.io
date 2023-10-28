@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmilliwonkim_blog_site=self.webpackChunkmilliwonkim_blog_site||[]).push([[3478],{9534:e=>{e.exports=JSON.parse('{"title":"Front-End Development","slug":"/category/front-end-development","permalink":"/milliwonkim/docs/category/front-end-development","navigation":{"next":{"title":"Next.js","permalink":"/milliwonkim/docs/category/nextjs"}}}')}}]);
