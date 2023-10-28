@@ -22,7 +22,6 @@ const config = {
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -63,6 +62,13 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/logo.png",
+      metadata: [
+        {
+          name: "keywords",
+          content:
+            "frontend, development, programming, stock, economy, apple, google, meta, facebook, instagram, tiktok, amazon, aws, microsoft, react, nextjs, vercel, javascript, typescript, jsx",
+        },
+      ],
       navbar: {
         title: "MILLIWONKIM POSTS",
         logo: {
